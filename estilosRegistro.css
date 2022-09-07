@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+   background: url(imagen.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 80px;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    top: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255) ;
+}
+.contenedor_header{
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0px 10px;
+}
+header .logo{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 199px;
+    margin-right: 400px;
+}
+.contenedor_nav{
+    position: relative;
+    height: 100%;
+}
+nav{
+    height: 100%;
+ }
+nav ul{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+nav ul li{
+    margin: 0px 10px;
+    list-style: none;
+}
+nav ul li a{
+    color: black;
+    font-size: 20px;
+}
+.dinav{
+    background: rgb(0, 0, 0);
+    padding: 10px 30px;
+    color:rgb(255, 255, 255);
+    border-radius: 8px 120px;
+}
+header{
+    display: flex;
+    justify-content: center;   
+}
+
+
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+.formulario{
+    background: #fff;
+    margin-top: 150px;
+    padding: 3px;
+}
+h1{
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+}
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:  #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: cadetblue;
+}
+p{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+      color: #1a2537;
+    font-weight: 600;
+}
+.link:hover{
+     color: cadetblue;
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
